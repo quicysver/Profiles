@@ -37,6 +37,9 @@ DOMAIN-SUFFIX,bnappzh.com
 DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,bntrace.com
 
+# Explorer 
+DOMAIN-SUFFIX,etherscan.io
+
 # Analysis
 DOMAIN-SUFFIX,aicoin.com
 DOMAIN-SUFFIX,aimoon.com

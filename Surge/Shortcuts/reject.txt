@@ -38,6 +38,7 @@
 # B
 # > ByteDance
 ^https?:\/\/[\w-]+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ - reject
+^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/ad\/ - reject
 ^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/ - reject
 ^https?:\/\/[\w-]+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ - reject
 ^https?:\/\/.+?\/img\/ad\.union\.api\/ - reject
@@ -75,6 +76,8 @@
 ^https?:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise - reject
 # > BabyHealth - yxyapi*.drcuiyutao.com
 ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ - reject
+# > BadmintonCN - app.badmintoncn.com
+^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/ - reject
 
 # C
 # > ChinaMobile - clientaccess.10086.cn
@@ -210,7 +213,7 @@
 ^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson - reject
 # > Keep - api.gotokeep.com
 ^https?:\/\/api\.gotokeep\.com\/ads - reject
-^https?:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad/ - reject
+^https?:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad - reject
 # > Kuaikan Comics - api.kkmh.com
 ^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/ - reject
 
